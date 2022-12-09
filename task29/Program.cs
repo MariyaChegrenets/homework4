@@ -11,7 +11,7 @@ void OutputArray(int[] array)
     while(index<length)
     {
         array[index] = new Random().Next();
-        Console.WriteLine(array[index]);
+        Console.Write($"{array[index]} ");
         index ++;
     }
 }
